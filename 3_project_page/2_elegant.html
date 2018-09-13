@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>YON - Elegant Project Page</title> 
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        <style>
+        html{
+            
+        }
+        body{
+            font-family: 'Montserrat', sans-serif;
+            margin:0;
+            padding: 0;
+            color:black;
+            /*to make full screen gradient*/
+            background-image:url(images/circle.png),linear-gradient(to top,white,darkgray);
+            background-repeat: no-repeat;
+            background-position: center; 
+            text-align: center;
+            background-attachment: fixed;
+            /*done*/
+            
+        }
+        a{
+            text-decoration: none;
+            color:inherit;
+        }
+        .container{
+            margin: 50px;
+        }
+        h1{
+              position: fixed;
+              line-height: 100vh;
+              width: 100vw;
+              text-align:center;
+              font-size:100px;
+              font-weight: 500;
+              margin-top:-10px;
+              text-transform: uppercase;
+              color: white;
+              mix-blend-mode: darken;
+              pointer-events: none;
+        }
+        #name{
+              position: fixed;
+              width:10vw;
+              text-align: center;
+              color: darkgray;
+              text-transform: uppercase;
+              top:10px;
+              background-color: white;
+              padding: 10px;
+              left:45vw;
+              right:45vw;
+        }
+        #fullImage{
+              width:100vw;
+              height: 155vh;
+
+              background-size:cover;
+              background-position: center; 
+              text-align: center;
+        }
+        .detail{
+              display: inline-block;
+              margin: 20px 10px 5px 0px;
+              /*top right bottom left*/
+              text-align: center;
+              overflow: show;
+        }
+        .detailText{
+              padding: 100px;
+              padding-left: 350px;
+              padding-right: 350px;
+              font-size: 13px;
+              letter-spacing: -0.5px;
+              line-height: 15px;
+              font-weight: 400;
+        }
+        img{
+              border:1px solid #000;
+              transition: .1s /*ease*/;
+        }
+        .parallax {
+        /* The image used */
+        background-image: url("img_parallax.jpg");
+
+        /* Set a specific height */
+        min-height: 100px; 
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+        </style>
+            
+    </head>
+    <body>
+        
+
+        <div id="container">
+            <div id="header">
+                <h1>Y O N</h1>
+                <h6><p id="name">Yanzhi Lai</p></h6>
+                <div id="fullImage"></div>
+            </div>
+        </div>
+        
+        
+        <div style="height:inherit;background-color:black;font-size:36px;color:white;top:30px;">
+            
+            
+            <div class="detailText">
+            <p>
+                 A sculpture in itself, <i><b>Yon</b></i> is a multi-funtional object intended to be used as a furniture piece. 
+            </p>
+            <p style="padding-bottom: 100px;">
+                 The unique form was designed with the concept of lightness and continuity. Through the visual process of tracing the curves, a unique view is offered from every angle. Yon employs the raw qualities of steel to create sculptural forms that are both beautiful and useful in the home.
+            </p> 
+            <img src="images/1.jpg", height="400px", width="400px">
+            </div>
+            
+            <div class="detailText">
+            <p><b>Infos:</b></p> 
+                <ul>
+                    <b>Materials:</b> 1/2-inch Hot Rolled Steel Rod, Plexiglass<br>
+                    <b>Techniques:</b> MIG welding, Metal bending, Laser cutting<br>
+                    <b>Year:</b> December 2017<br>
+                    <b>Dimensions:</b> 15" W, 23" H
+                </ul>
+            </div>
+            
+            
+            <div id="thumbnails">
+                
+                   <div class="detail">
+                      <a href="images/2.jpg">
+                         <img src="images/2.jpg" style="width: 25%;height: 25%;">
+                      </a>
+                   </div>
+                
+                   <div class="detail">
+                      <a href="imgs/sol_2.png">
+                         <img src="imgs/sol_2.png"><br>
+                      </a>
+                   </div>
+               
+            </div>
+            
+            
+        </div>
+        
+        
+        
+        
+    </body>
+</html>
