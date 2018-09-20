@@ -224,7 +224,7 @@ a:hover{
 }
 
 
-@media only screen and (max-height:640px){
+@media only screen and (max-height:440px){
     
     .half {
     width:50%;
@@ -253,7 +253,7 @@ a:hover{
         font-weight:300;
         line-height: 28vh;
         margin: 0% 0% 0 4%;
-        font-size:15px;
+        font-size:14px;
         text-align: left;
         letter-spacing: 1vw;
 
@@ -269,7 +269,7 @@ a:hover{
         position: absolute;
         bottom:0;
         margin:0% 0% 4% 4%;
-        width:47%; /*we dont do 50 here because we dont want to destroy the margin*/
+        width:45%; /*we dont do 50 here because we dont want to destroy the margin*/
         font-family: 'Open Sans Condensed', sans-serif;
         letter-spacing: 0.18vw;
         line-height: 3.6vh;
@@ -292,7 +292,6 @@ a:hover{
       
     }
 }
-
 
 
 
