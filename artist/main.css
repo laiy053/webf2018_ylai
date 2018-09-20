@@ -102,7 +102,7 @@ a:hover{
             
 }
 
-@media only screen and (max-width:1024px){
+@media only screen and (max-width:1023px){
     
     .half{
         width: 100vw;
@@ -142,7 +142,7 @@ a:hover{
     }
 }
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:760px){
     
     .half{
         width: 100vw;
