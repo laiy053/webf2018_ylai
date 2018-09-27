@@ -1,0 +1,313 @@
+
+body{
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+
+p{
+    font-family: helvetica;
+    color:grey;
+    position: absolute;
+    margin: .65vw .8vw;
+}
+
+#container {
+    margin: 2vw 0vw 2vw 1vw;
+    display: inline-block;
+}
+
+.grid {
+    background-color: transparent;
+    width: 25vw;
+    height: 25vw;
+    display: inline-block;
+    margin: 0vw 1vw 1vw 0vw;
+}
+
+/* 1 */
+
+#square {
+    background-color: indianred;
+    width:70%;
+    height: 70%;
+    margin: 25%;
+	border-radius: 20%;
+}
+
+#square:hover {
+	animation: spin 0.7s linear infinite;
+}
+/*keyframe defines animation*/
+@keyframes spin {
+	0%{transform: rotate(0deg);background: indianred;}
+	50%{transform: rotate(120deg);background: red;}
+	75% {transform: rotate(240deg);background: mediumvioletred; }
+	100%{transform: rotate(360deg);background: indianred;}
+}
+/*	100% { transform: rotate(360deg)};*/
+@keyframes color-change {
+	0%{background-color: indianred;};
+	50%{background-color: red;};
+	100% {background-color: mediumvioletred; };
+}
+/*2*/
+
+.flip-horizontal-bottom {
+	background-color: skyblue;
+    width:30%;
+    height: 15%;
+    margin: 25%;
+	border-radius: 0%;
+	border-left: 10vw solid transparent;
+    border-right: 10vw solid transparent;
+    border-bottom: 20vw solid seagreen;
+    border-top: 0vw solid;
+}
+
+.flip-horizontal-bottom:hover{ 
+	animation: flip-horizontal-bottom 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both infinite alternate;
+
+}
+
+
+@keyframes flip-horizontal-bottom {
+  0% {
+	transform: rotateX(0);
+  }
+  100% {
+  	transform: rotateX(-180deg); background: yellowgreen;
+  }
+}
+
+
+/*3*/
+
+.slide-tb {
+	background-color: yellowgreen;
+    width:30%;
+    height: 30%;
+    margin: 70% 0% 0 40%;
+	border-radius: 50%;
+}
+
+.slide-tb:hover {
+	animation: slide-tb 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both infinite;
+	animation-direction: alternate;
+}
+
+@keyframes slide-tb {
+  0% {
+     transform: translateY(0) translateX(0);
+  }
+  100% {
+     transform: translateY(-150px) translateX(0);
+  }
+}
+
+/*4*/
+
+.around {
+    width:20%;
+    height: 20%;
+    margin: 0%;
+	border-radius: 50%;
+	position: relative;
+    background: mistyrose;
+	animation: around 5s infinite; 
+    animation-direction: alternate;
+}
+
+
+@keyframes around {
+	0%   {background: mistyrose; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: blue; left: 200px; top: 200px;}
+    75%  {background: green; left: 0px; top: 200px;}
+    100% {background: mistyrose; left: 0px; top: 0px;}
+}
+
+/*5*/
+
+.slide-fwd {
+	width:100px;
+    height: 100px;
+    margin: 0%;
+	border-radius: 0;
+    background: royalblue;
+}
+.slide-fwd:hover{
+	animation: slide-fwd 1.2s linear infinite alternate both;
+}
+@keyframes slide-fwd {
+  0% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(5, 5);
+    opacity: 0;
+  }
+}
+
+/*6*/
+.triangle{
+	width:0;
+    height: 0;
+    margin: 3vw;
+    border-left: 10vw solid transparent;
+    border-right: 10vw solid transparent;
+    border-bottom: 20vw solid darkseagreen;
+    border-top: 0vw solid;
+}
+.triangle:hover{
+	animation: tri-rec 1.2s linear infinite alternate;
+}
+
+@keyframes tri-rec{
+	100% {
+		border-left: 0vw solid transparent;
+		border-right: 0vw solid transparent;
+		border-bottom: 0vw solid darkseagreen;
+		border-top: 20vw solid;
+	}
+}
+
+/*7*/
+
+.vibrate {
+	width:20vw;
+    height: 15vh;
+    margin: 40% 40% ;
+	border-radius: 0;
+	background: lightblue;
+}
+.vibrate:hover{
+	animation: vibrate-3 0.5s linear infinite both;
+}
+@keyframes vibrate-3 {
+  0% {
+	transform: translate(0);
+  }
+  10% {
+	transform: translate(-2px, -2px);
+  }
+  20% {
+    transform: translate(2px, -2px);
+  }
+  30% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(2px, 2px);background: green;
+  }
+  50% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, -2px);
+  }
+  70% {
+    transform: translate(-2px, 2px);
+  }
+  80% {
+    transform: translate(-2px, -2px);
+  }
+  90% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+
+/*8*/
+
+.rotate-90-cw:{
+	width:15vw;
+    height: 15vh;
+    margin: 25% ;
+	border-radius: 0;
+	background: coral;
+	animation: rotate-90-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes rotate-90-cw {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+
+/*9*/
+
+.slide-bck-center {
+	width:10vw;
+    height: 10vh;
+    margin: 25% ;
+	border-radius: 50%;
+	background: coral;
+	
+}
+.slide-bck-center:hover{
+	animation: slide-bck-center 0.45s linear infinite alternate ;
+}
+@keyframes slide-bck-center {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(2, 3);background: orange;
+  }
+}
+
+/*10*/
+.skewZ {
+	width:15vw;
+    height: 15vh;
+    margin: 25% ;
+	border-radius: 0%;
+	background: MediumTurquoise ;
+}
+.skewZ:hover{
+	animation: skewZ 1.4s ease infinite alternate ;
+}
+@keyframes skewZ{
+	0% {
+		transform: skew(0deg, 0deg);
+	}
+	25% {
+	transform: skew(30deg, 20deg);background: gold;
+	}
+	50% {
+	transform: skew(0deg, 0deg);background: MediumTurquoise;
+	}
+	100% {
+	transform: skew(10deg, 20deg);background: pink;
+	}
+}
+/*11*/
+.rotateZ {
+	width:15vw;
+    height: 15vh;
+    margin: 25% ;
+	border-radius: 0%;
+	background: MediumTurquoise ;
+}
+.rotateZ:hover {
+	animation: rotateZ1 1.4s ease infinite alternate ;
+}
+@keyframes rotateZ1 {
+	0%{
+		transform: perspective(0);
+	}
+	50%{
+		transform: perspective(100);
+	}
+	100%{
+		transform: perspective(200);
+	}
+}
