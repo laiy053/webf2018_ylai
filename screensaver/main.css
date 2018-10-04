@@ -1,0 +1,58 @@
+body {
+	margin:0px;
+	height: 100%;
+	overflow:hidden;
+	background-color: white;
+	color:black;
+	font-family: 'Poppins', sans-serif;
+}
+#container{
+	margin: 0;
+}
+#about{
+	position: absolute;
+}
+p{
+	margin:20px;
+	color:black;
+	font-size:20px;
+	width:75vw;
+	z-index: 0;
+}
+p2{
+	margin:20px;
+	color:black;
+	font-size:15px;
+	width:75vw;
+	z-index: 0;
+}
+
+
+#ticker{
+	position: absolute;
+	bottom: 20px;
+	margin: 20px 90vw;
+	z-index: 100;
+	font-size: 15px;
+	color: black;
+	mix-blend-mode: difference;
+	
+}
+
+#screensaver {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-image: none;
+	transition: .5s ease;
+	background-color: transparent;
+	z-index: 100;
+	
+	background-image: url(imgs/slide1.jpg)
+}
+
+#about{
+	position: absolute;
+}
