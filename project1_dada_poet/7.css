@@ -1,0 +1,76 @@
+/*circle notes*/
+
+.container{
+		margin-left: 100px;
+}
+#Poem1{
+	padding: 0px;
+	display: inline-block;
+	font-family: 'Special Elite', cursive;
+	margin-top: 35px;
+
+}
+
+#first{
+	font-size: 0.8rem;
+	/*background: azure;*/
+	border: 1px solid #000000;
+	transform: rotate(4deg);
+	padding: 40px;
+	border-radius: 50%;
+	position: absolute;
+	margin-top: inherit;
+}
+#sentance0{
+	font-size: 1.2rem;
+	/*background: honeydew;*/
+	border: 1px solid #000000;
+	transform: rotate(-5deg);
+	padding: 60px;
+	border-radius: 50%;
+	position: absolute;
+	margin-top: 30px;;
+}
+#sentance1{
+	font-size: 1.6rem;
+	/*background:gainsboro;*/
+	border: 1px solid #000000;
+	transform: rotate(-12deg);
+	padding: 70px;
+	border-radius: 50%;
+	position: absolute;
+	margin-top: 70px;
+}
+#sentance2{
+	font-size: 2.0rem;
+	/*background:aliceblue;*/
+	border: 1px solid #000000;
+	transform: rotate(2deg);
+	padding: 80px;
+	border-radius: 50%;
+	position: absolute;
+	margin-top: 110px;
+}
+
+#sentance3{
+	font-size: 2.4rem;
+	/*background:gainsboro;*/
+	border: 1px solid #000000;
+	transform: rotate(-9deg);
+	padding: 40px;
+	border-radius: 50%;
+	position: absolute;
+	margin-top: 160px;
+}
+
+#sentance4{
+	font-size: 2rem;
+	/*background:lightcyan;*/
+	border: 1px dotted #000000;
+	transform: rotate(30deg);
+	padding: 100px;
+	border-radius: 50%;
+	position: absolute;
+	margin-top: 200px;
+}
+

@@ -1,0 +1,45 @@
+/*CRAZY TEXT ROTATION 2*/
+
+
+
+.container{
+	text-align: right;
+	display:inline-block;
+	font-family: 'IM Fell English SC', serif;
+}
+#first{
+	transform: rotate(20deg);
+	font-size: 1rem;
+	position: absolute;
+	margin-top: 0px;
+}
+#sentance0{
+	transform: rotate(-20deg);
+	font-size: 7rem;
+	position: absolute;
+	margin-top: 10px;
+}
+#sentance1{
+	transform: rotate(10deg);
+	font-size: 3rem;
+	position: absolute;
+	margin-top: 50px;
+}
+#sentance2{
+	transform: rotate(30deg);
+	font-size: 9rem;
+	position: absolute;
+	margin-top: 100px;
+}
+#sentance3{
+	transform: rotate(4deg);
+	font-size: 4rem;
+	position: absolute;
+	margin-top: 200px;
+}
+#sentance4{
+	transform: rotate(7deg);
+	font-size: 8rem;
+	position: absolute;
+	margin-top: 300px;
+}

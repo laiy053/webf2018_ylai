@@ -1,0 +1,35 @@
+/*CRAZY TEXT ROTATION1*/
+
+
+
+.container{
+	font-family: 'IM Fell Double Pica', serif;
+}
+#first{
+	transform: rotate(20deg);
+	font-size: 4rem;
+}
+#sentance0{
+	transform: rotate(-90deg);
+}
+#sentance1{
+	transform: rotate(10deg);
+}
+#sentance2{
+	transform: rotate(90deg);
+}
+#sentance3{
+	transform: rotate(4deg);
+}
+#sentance4{
+	transform: rotate(7deg);
+}
+#sentance5{
+	transform: rotate(90deg);
+}
+
+
+p:nth-child(0) {
+    font-size: 6rem;
+	display:inline-block;
+}

@@ -1,0 +1,40 @@
+/* handwriting text drop*/
+.container{
+	margin-top: 60px;
+	font-family: 'East Sea Dokdo', cursive;
+}
+p{
+	letter-spacing: 2px;
+}
+#first{
+	text-align: center;
+	font-size: 1.2rem;
+	transform: rotate(60deg);
+	margin: 0px;
+}
+#sentance0{
+	font-size: 1.6rem;
+	transform: rotate(120deg);
+	margin: 40px;
+}
+#sentance1{
+	font-size: 2.1rem;
+	transform: rotate(180deg);
+	margin: 0px;
+}
+
+#sentance2{
+	font-size: 3rem;
+	transform: rotate(240deg);
+	margin: 0px;
+}
+#sentance3{
+	font-size: 1.4rem;
+	transform: rotate(300deg);
+	margin: 0px;
+}
+#sentance4{
+	font-size: 1rem;
+	transform: rotate(360deg);
+	margin: 0px;
+}

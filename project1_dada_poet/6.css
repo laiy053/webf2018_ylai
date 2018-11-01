@@ -1,0 +1,65 @@
+/*color block palette 2*/
+
+.container{
+	margin-left: 30vw;
+	font-family: 'Roboto Mono', monospace;
+	letter-spacing: -2px;
+	width: 70vw;
+	display: inline-block
+}
+.div{
+	display: none;
+}
+#first{
+	width: 170px;
+    height: inherit;
+    background-color: black;
+	transform: skewY(20deg);
+	color: white;
+	padding-bottom: 50px;
+}
+
+#sentance0{
+	width: 170px;
+    height: inherit;
+    background-color: dimgray;
+	transform: skewY(-20deg);
+	padding-bottom: 50px;
+	color: white;
+}
+
+#sentance1{
+	width: 170px;
+    height: inherit;
+    background-color: darkgray;
+	transform: skewY(20deg);
+	padding-bottom: 50px;
+}
+
+#sentance2{
+	width: 170px;
+    height: inherit;
+    background-color: lightgray;
+	transform: skewY(20deg);
+	padding-bottom: 50px;
+	color: white;
+}
+
+#sentance3{
+	width: 170px;
+    height: inherit;
+    background-color: transparent;
+	border-bottom-color: black;
+	border: 1px;
+	transform: skewY(-20deg);
+	padding-bottom: 50px;
+}
+
+#sentance4{
+	width: 170px;
+    height: inherit;
+    background-color: gainsboro;
+	transform: skewY(20deg);
+	padding-bottom: 50px;
+}
+
