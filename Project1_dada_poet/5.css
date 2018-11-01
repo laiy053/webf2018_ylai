@@ -1,0 +1,48 @@
+/*sticky notes*/
+
+#Poem1{
+	padding: 0px;
+	display: inherit;
+	font-family: 'Special Elite', cursive;
+	margin-top: 35px;
+}
+
+#first{
+	font-size: 0.8rem;
+	/*background: azure;*/
+	border: 1px solid #000000;
+	transform: rotate(10deg);
+	margin-bottom: 20px;
+}
+#sentance0{
+	font-size: 1.2rem;
+	/*background: honeydew;*/
+	border: 1px solid #000000;
+	transform: rotate(5deg);
+}
+#sentance1{
+	font-size: 1.6rem;
+	/*background:gainsboro;*/
+	border: 1px solid #000000;
+	transform: rotate(-2deg);
+}
+#sentance2{
+	font-size: 2.0rem;
+	/*background:aliceblue;*/
+	border: 1px solid #000000;
+	transform: rotate(2deg);
+}
+
+#sentance3{
+	font-size: 2.4rem;
+	/*background:gainsboro;*/
+	border: 1px solid #000000;
+	transform: rotate(-9deg);
+}
+
+#sentance4{
+	font-size: 2.8rem;
+	/*background:lightcyan;*/
+	border: 1px solid #000000;
+}
+

@@ -1,0 +1,37 @@
+/*skewY*/
+.container{
+	font-family: 'Questrial', sans-serif;
+	text-align: right;
+	margin-top: 200px;
+	transform: skewY(-25deg);
+}
+#first{
+	font-size: 1.5rem;
+	text-decoration:overline;
+	text-decoration-style:double
+}
+#sentance0{
+	font-size: 1.2rem;
+	word-spacing: 10px;
+}
+#sentance1{
+	font-size: 2.4rem;
+	word-spacing: 28px;
+	text-decoration: line-through;
+	text-decoration-style: dashed;
+}
+
+#sentance2{
+	font-size: 2.0rem;
+	word-spacing: 22px;
+	text-decoration: overline;
+}
+#sentance3{
+	font-size: 1.6rem;
+	word-spacing: 16px;
+}
+
+#sentance4{
+	font-size: 2.8rem;
+	word-spacing: 34px;
+}
