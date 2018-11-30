@@ -31,10 +31,11 @@ canvas{
 	letter-spacing: 2px;
 	font-size: 15px;
 	
-	background: yellow;
+	background: transparent;
 	border-radius: 50%;
-	height: 40px;
-	width: 40px;
+	border: 1px solid black;
+	height: 60px;
+	width: 60px;
 	
 	cursor:pointer;
 	
@@ -116,9 +117,11 @@ a:hover{
 	
 }
 
+/*
 .bigText{
 	font-size: 30px;
 }
+*/
 
 
 
