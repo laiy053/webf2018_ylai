@@ -3,6 +3,9 @@
 //          
 //    var newColor = color(Math.floor(Math.random()*220), Math.floor(Math.random()*160), Math.floor(Math.random()*225));
 
+
+// THE SENTENCE
+
 $(function(){
 	var ticker = 0;
 	var sentence = ["<p> <div class = 'bigText'>Yanzhi Lai</div></p>",  "<p>is</p>" , "<p> a </p>", "<p>interdisciplinary</p>", "<p>designer.</p>" , "<p> She </p>", "<p>does</p>", "<p><div class = 'bigText'><a href = 'pd.html'> Product Design,</a></p></div>" , "<p><a href = 'uiux.html'> <div class = 'bigText'>UI/UX Design,</div></a></p>" , "<p><a href = 'film.html'><div class = 'bigText'>Filmmaking,</a></p>", "<p>and</p>", "<p><a href = 'stuff.html'><div class = 'bigText'>Some Other Stuff.</a></p></div>" ,"<a href = 'film/passenger.html'><img src='imgs/2.jpg'> </a>", " <p> <a href = 'mailto:yanzhilai10@gmail.com'> Contact her</a></p>"];
@@ -77,7 +80,7 @@ $(document).click(function(e){
 var fonts = ["monospace", "Lato", "sans-serif", "Chakra Petch", "Playfair Display"];
 var colors = ["black", "chocolate", "green", "goldenrod", "salmon"];
 
-var bgColors = ["#043E3F","#015852","#D2AC2F","#BF9266"];
+var bgColors = ["#043E3F","yellow","#D2AC2F","#BF9266"];
 
 
 var newFont = fonts[Math.floor(Math.random()*fonts.length)];
@@ -92,12 +95,12 @@ var c = document.getElementById("c");
 var ctx = c.getContext("2d");
 var cH;
 var cW;
-var bgColor = "#9A9C98";
+var bgColor = "#F4F6F1";
 var animations = [];
 var circles = [];
 
 var colorPicker = (function() {
-  var colors = [ "#F4F6F1", "#EAEBE7", "BFC1BD"];
+  var colors = [ "#F4F6F1", "#EAEBE7", "#BFC1BD", "#DFE8D1", "#FFE9E5"];
   var index = 0;
   function next() {
     index = index++ < colors.length-1 ? index : 0;
