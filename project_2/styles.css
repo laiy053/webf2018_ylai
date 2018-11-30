@@ -1,0 +1,153 @@
+.html{
+
+	height: 100vh;
+	width: 100vw;
+	background: transparent;
+}
+
+canvas{
+	display:block;
+	width:100vw;
+	height:100vh;
+	cursor:col-resize;
+}
+
+.body{
+	position:relative;
+	cursor:pointer;
+
+}
+
+.text{
+	position:absolute;
+	transform: translate(-0%, -0%);
+	opacity: 1;
+	
+	animation: slide-tb 02s infinite ;
+
+	
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 15px;
+	
+	background: yellow;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	
+	cursor:pointer;
+	
+	
+
+}
+.textAnimation{
+	animation: letterspace 2s;
+}
+
+
+
+
+@keyframes slide-tb {
+  0% {
+     transform: translateY(0) translateX(0) scale(6, 6);;
+	 
+  }
+  10% {
+     transform: translateY(-10px) translateX(10);
+
+  }
+  20% {
+     transform: translateY(-20px) translateX(0);
+	 letter-spacing: 5px;
+  }
+  30% {
+     transform: translateY(22px) translateX(10);
+  }
+  40% {
+     transform: translateY(0) translateX(0);
+  }
+  50% {
+     transform: translateY(-22px) translateX(-10);
+	 
+  }
+  60% {
+     transform: translateY(0) translateX(0);
+  }
+  70% {
+     transform: translateY(-10px) translateX(10);
+  }
+  80% {
+     transform: translateY(0) translateX(0);
+  }
+  90% {
+     transform: translateY(-10px) translateX(10);
+
+  }
+  100% {
+     transform: translateY(0) translateX(0) scale(1, 1);;
+  }
+}
+
+@keyframes letterspace {
+	50% {
+		letter-spacing: 50px;
+	}	
+}
+
+header{
+	font-size: 15px;
+	text-transform: uppercase;
+	line-height: 25px;
+}
+
+a{
+	text-decoration: inherit;
+	color: inherit;
+}
+
+a:hover{
+	text-decoration:underline;
+	font-size: 20px;
+	font-weight: 600;
+	color: crimson;
+	text-shadow: 2px 2px turquoise;
+/*	transform: rotateZ(50)*/
+	
+}
+
+.bigText{
+	font-size: 30px;
+}
+
+
+
+.container{
+	margin: 160px;
+	text-align: center;
+}
+.row{
+	height: 15vh;
+	width: 50vw;
+	text-align: center;
+	display: inline-block;
+}
+.box{
+	width: 200px;
+	padding: 30px;
+	text-align: center;
+	display: inline-block;
+	
+}
+.box:hover{
+	text-decoration: line-through;
+}
+img{
+	height: 70px;
+	width:70px;
+	border-radius: 50%;
+	
+}
+img:hover{
+	background: black;
+}
