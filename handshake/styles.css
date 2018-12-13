@@ -45,6 +45,10 @@ canvas{
 	border-width: 1px;
 	z-index: 1000;
 }
+.myName{
+	font-weight: 600;
+	font-size: 8vh;
+}
 .logo{
 	z-index: 100;
 	height: 15px;
