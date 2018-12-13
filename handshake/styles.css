@@ -1,0 +1,274 @@
+.html{
+
+	height: 100vh;
+	width: 100vw;
+	background: transparent;
+	overflow:; 
+	font-family: 'Lato', sans-serif;
+}
+
+canvas{
+	display:block;
+	width:100vw;
+	height:100vh;
+
+}
+
+.body{
+	position:relative;
+}
+
+.clicker{
+	width: 90vw;
+	height: 90vh;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	position: fixed;
+	cursor:none;
+	overflow: hidden;
+	border-width: 1px;
+	z-index: -1;
+}
+.texter{
+	width: 90vw;
+	height: 90vh;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	position: fixed;
+	cursor:none;
+	background-color: transparent;
+	overflow: hidden;
+	border-width: 1px;
+	z-index: 1000;
+}
+.logo{
+	z-index: 100;
+	height: 15px;
+	width: 15px;
+}
+.text{
+	animation: fadeIn .4s;
+	cursor: none;
+	position:absolute;
+	transform: translate(-0%, -0%);
+	opacity: 1;
+	z-index: 1;
+/*    border-width: 5px;*/
+}
+
+#oval {
+	z-index: 0;
+}
+.clickMe{
+	animation: fade-Out 2s infinite;
+	position: fixed;
+	margin: 20% 50% 50% 50%;
+	font-size: 10vw;
+	font-family: Lato;
+/*	color: lightgray;*/
+	?
+	height: 200px;
+	width: 200px;
+
+}
+
+
+
+.textAnimation{
+	animation: letterspace 2s;
+}
+
+
+/*
+
+.myName:hover{
+	text-decoration: line-through;
+}
+*/
+
+
+@keyframes borderColors {
+	0%{
+		border-color: red;
+	}
+	10%{
+		border-color: blue;
+	}
+	20%{
+		border-color: green;
+	}
+	30%{
+		border-color: yellowgreen;
+	}
+	40%{
+		border-color: yellow;
+	}
+	50%{
+		border-color: orange;
+	}
+	60%{
+		border-color: salmon;
+	}
+	70%{
+		border-color: mistyrose;
+	}
+	80%{
+		border-color: peru;
+	}
+	90%{
+		border-color: plum;
+	}
+	100%{
+		border-color: hotpink;
+	}
+}
+
+@keyframes fadeIn {
+  0% {
+     opacity: 0;
+	 
+  }
+  100% {
+     opacity: 1;
+  }
+}
+
+@keyframes letterspace {
+	50% {
+		letter-spacing: 50px;
+	}	
+}
+
+header{
+	font-size: 15px;
+	text-transform: uppercase;
+	line-height: 25px;
+}
+
+a{
+	text-decoration: inherit;
+	color: inherit;
+	z-index: 10000;
+}
+
+a:hover{
+/*	text-decoration:line-through;*/
+/*
+	border-style: solid;
+	border-width: 1px;
+*/
+	background-color: yellow;
+	z-index: 10000;
+	position: relative;
+	cursor: none;
+/*
+	font-size: 30px;
+	font-weight: 600;
+	color: black;
+	text-shadow: 2px 2px lightgray;
+	cursor: none;
+*/
+/*	transform: rotateZ(50)*/
+	
+}
+
+.bigText{
+	font-weight: 600;
+	font-size: 3.3vh;
+}
+
+
+
+.container{
+	margin: 160px;
+	text-align: center;
+}
+.row{
+	height: 15vh;
+	width: 50vw;
+	text-align: center;
+	display: inline-block;
+}
+.box{
+	width: 200px;
+	padding: 30px;
+	text-align: center;
+	display: inline-block;
+	
+}
+.box:hover{
+	text-decoration: line-through;
+}
+img{
+	height: 70px;
+	width:70px;
+	border-radius: 50%;
+	
+}
+img:hover{
+	background: black;
+}
+
+
+
+header{
+	font-family: 'Lato', sans-serif;
+	font-size: 10px;
+}
+
+/*drop down menu*/
+.dropdown {
+  position: relative;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* responsive*/
+			@media only screen and (max-height:440px){
+				img{
+					height: 10px; width: 15px; 
+				}
+				.myName{
+					font-weight: 600;
+					font-size: 5vh;
+				}
+			}
+			@media only screen and (max-width:420px){
+				img{
+					height: 10px; width: 15px; 
+				}
+				.myName{
+					font-weight: 600;
+					font-size: 5vh;
+				}
+				
+			}
+			@media only screen and (max-width:760px){
+				img{
+					height: 100px; width: 150px; 
+				}
+			}
+			@media only screen and (max-width:1023px){
+				img{
+					height: 10vh; width: 10vw; 
+				}
+				.myName{
+					font-weight: 600;
+					font-size: 8vh;
+				}
+			}
